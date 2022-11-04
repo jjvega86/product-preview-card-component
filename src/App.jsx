@@ -1,19 +1,22 @@
 function App() {
   return (
-    <div className="max-w-sm mx-auto">
+    <div className="max-w-sm mx-auto ">
       <img
         src="src/assets/images/image-product-mobile.jpg"
         alt="chanel perfume against white"
+        className="rounded-t-lg mb-4"
       />
-      <p>PERFUME</p>
-      <h3>Gabrielle Essence Eau De Parfum</h3>
-      <p>
+      <p className="tracking-widest text-neutral-dark mb-2">PERFUME</p>
+      <h3 className="font-extrabold text-3xl mb-4">
+        Gabrielle Essence Eau De Parfum
+      </h3>
+      <p className="text-neutral-dark mb-5">
         A floral, solar and voluptuous interpretation composed by Olivier Polge,
         Perfumer-Creator for the House of CHANEL.
       </p>
-      <div>
+      <p className="text-primary-dark text-3xl font-medium font-fraunces">
         $149.99 <span>$169.99</span>
-      </div>
+      </p>
       <button>Add to Cart</button>
       <div>
         Challenge by{" "}
