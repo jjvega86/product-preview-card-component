@@ -10,7 +10,7 @@ import ProductImage from "./ProductImage";
 const ProductCard = () => {
   return (
     <div>
-      <div className="mt-12 mr-20 max-w-md sm:flex">
+      <div className="max-w-sm sm:flex mb-5 mt-5 mr-20">
         <ProductImage />
         <div className="p-5 bg-neutral-white rounded-b-xl sm:p-12">
           <ProductCategory />

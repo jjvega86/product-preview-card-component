@@ -3,7 +3,7 @@ import ProductCard from "./components/ProductCard";
 
 function App() {
   return (
-    <div className="mx-auto flex justify-center">
+    <div className="grid place-content-center">
       <ProductCard />
       <Footer />
     </div>

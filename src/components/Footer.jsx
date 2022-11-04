@@ -1,6 +1,6 @@
 const Footer = () => {
   return (
-    <footer className="bottom-0 left-10 fixed">
+    <footer>
       Challenge by{" "}
       <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">
         Frontend Mentor
