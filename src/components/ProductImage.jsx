@@ -1,8 +1,8 @@
 import useURL from "../hooks/useURL";
 
 const urlOptions = {
-  mobile: "public/images/image-product-mobile.jpg",
-  desktop: "public/images/image-product-desktop.jpg",
+  mobile: "img/image-product-mobile.jpg",
+  desktop: "img/image-product-desktop.jpg",
 };
 
 const ProductImage = () => {
