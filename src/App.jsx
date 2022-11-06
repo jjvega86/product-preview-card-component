@@ -3,7 +3,7 @@ import ProductCard from "./components/ProductCard";
 
 function App() {
   return (
-    <div className="grid place-content-center">
+    <div className="grid place-content-center min-h-screen">
       <ProductCard />
       <Footer />
     </div>
